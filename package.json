@@ -1,0 +1,26 @@
+{
+  "name": "zorigt",
+  "version": "0.0.1",
+  "description": "Zorigt's Peronal Website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Zorigt/zorigt.git"
+  },
+  "keywords": [
+    "resume",
+    "zorigt"
+  ],
+  "author": "Zorigt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zorigt/zorigt/issues"
+  },
+  "homepage": "https://github.com/Zorigt/zorigt",
+  "dependencies": {
+    "express": "^4.4.1"
+  }
+}
