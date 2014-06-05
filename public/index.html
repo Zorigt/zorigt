@@ -7,15 +7,19 @@
 <head>
      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-     <title>One Page Resume</title>
+     <title>Zorigt's Resume</title>
 
      <style type="text/css">
         * { margin: 0; padding: 0; }
-        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(images/noise.jpg); }
+        body { font: 16px Helvetica, Sans-Serif; line-height: 24px; background: url(assets/img/noise.jpg); }
+        img { width: 280px; border: 1px solid; border-radius:25px; border-color: #ffffff #888888 #888888 #ffffff; box-shadow: 10px 10px 5px #888888;}
         .clear { clear: both; }
         #page-wrap { width: 800px; margin: 40px auto 60px; }
         #pic { float: right; margin: -30px 0 0 0; }
-        h1 { margin: 0 0 16px 0; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px; border-bottom: 1px solid #999; }
+        .fn { border-bottom: 1px solid #999;}
+        .pronouced {text-align:left}
+        h1 { margin: 0 0px 16px 0px; padding: 0 0 16px 0; font-size: 42px; font-weight: bold; letter-spacing: -2px;}
+        h1 span { letter-spacing: -1px; position: relative; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 20px; color: #999; font-weight: normal; }
         h2 { font-size: 20px; margin: 0 0 6px 0; position: relative; }
         h2 span { position: absolute; bottom: 0; right: 0; font-style: italic; font-family: Georgia, Serif; font-size: 16px; color: #999; font-weight: normal; }
         p { margin: 0 0 16px 0; }
@@ -34,26 +38,24 @@
 
     <div id="page-wrap">
     
-        <img src="assets/img/cthulu.png" alt="Photo of Cthulu" id="pic" />
+        <img src="assets/img/zorigt.png" alt="Photo of Zorigt" id="pic"/>
     
         <div id="contact-info" class="vcard">
         
             <!-- Microformats! -->
-        
-            <h1 class="fn">C'thulhu</h1>
-        
+            <div class="fn">
+                <h1 class="name">Zorigt <span>pronounced [zo•ri•'t]</span></h1>
+            </div>
+            
             <p>
-                Cell: <span class="tel">555-666-7777</span><br />
-                Email: <a class="email" href="mailto:greatoldone@lovecraft.com">greatoldone@lovecraft.com</a>
+                Tel: <span class="tel">650-574-6327</span><br />
+                Email: <a class="email" href="mailto:zorigt.baz@gmail.com">zorigt.baz@gmail.com</a>
             </p>
         </div>
                 
         <div id="objective">
             <p>
-                I am an outgoing and energetic (ask anybody) young professional, seeking a 
-                career that fits my professional skills, personality, and murderous tendencies. 
-                My squid-like head is a masterful problem solver and inspires fear in who gaze upon it. 
-                I can bring world domination to your organization. 
+                I am an outgoing and energetic (ask anybody) young Node.js developer, seeking a team that fits my professional skills, personality, and curiosity. 
             </p>
         </div>
         
@@ -61,48 +63,73 @@
         
         <dl>
             <dd class="clear"></dd>
+
+            <dt>My works</dt>
+            <dd>
+                <ul>
+                    <li>www.bit.ly/zorigt</li>
+                    <li>getchute.herokuapp.com</li>
+                    <li>www.enrightco.com</li>
+                    <li>wayin.herokuapp.com</li>
+                    <li>www.coffeycontractor.com</li>
+                    <li>www.safetyisaffordable.com</li>
+                </ul>
+            </dd>
+
+            <dd class="clear"></dd>
             
             <dt>Education</dt>
             <dd>
-                <h2>Withering Madness University - Planet Vhoorl</h2>
-                <p><strong>Major:</strong> Public Relations<br />
-                   <strong>Minor:</strong> Scale Tending</p>
+                <h2>University of California, Berkeley</h2>
+                <p><strong>Major:</strong> Electrical Engineering and Computer Science<br />
+                   <strong>Degree:</strong> Bachelor in Science</p>
             </dd>
             
             <dd class="clear"></dd>
             
             <dt>Skills</dt>
             <dd>
-                <h2>Office skills</h2>
-                <p>Office and records management, database administration, event organization, customer support, travel coordination</p>
-                
-                <h2>Computer skills</h2>
-                <p>Microsoft productivity software (Word, Excel, etc), Adobe Creative Suite, Windows</p>
+                <h2>MEAN Stack</h2>
+                <p>Node.js - Angular.js - MongoDB - JavaScript </p>
+                <p>jQuery - Git SCM - Linux Bash - SAP - MVC - Grunt - Yoeman - Bower</p>
+
             </dd>
             
             <dd class="clear"></dd>
             
             <dt>Experience</dt>
             <dd>
-                <h2>Doomsday Cult <span>Leader/Overlord - Baton Rogue, LA - 1926-2010</span></h2>
+                <h2>College of San Mateo <span>Instructional Aide II - San Mateo, CA - 2013-Present</span></h2>
                 <ul>
-                    <li>Inspired and won highest peasant death competition among servants</li>
-                    <li>Helped coordinate managers to grow cult following</li>
-                    <li>Provided untimely deaths to all who opposed</li>
+                    <li>Provide technical assistance to over 60 students, faculty and staff at Computer Information Science Department</li>
+                    <li>Train and direct the work of student assistants</li>
+                    <li>Enter, modify and retrieve online content; compile statistical and other information for reports for the purpose of academic accreditation</li>
+                    <li>Compose correspondence, reports, memoranda and written materials as requested by the didvision Dean</li>
                 </ul>
                 
-                <h2>The Watering Hole <span>Bartender/Server - Milwaukee, WI - 2009</span></h2>
+                <h2>Enright &amp; Company <span>Webmaster - Burlingame, CA - 2013-2014</span></h2>
                 <ul>
-                    <li>Worked on grass-roots promotional campaigns</li>
-                    <li>Reduced theft and property damage percentages</li>
-                    <li>Janitorial work, Laundry</li>
+                    <li>Created the company's new website: www.enrightco.com</li>
+                    <li>Managed web contents presenting company’s professional services and image</li>
+                    <li>Compiled over 50 industry reports electronically on quarterly basis</li>
+                    <li>Prepared graphical statistics and data tables for appraisal summaries</li>
+                </ul> 
+
+                <h2>BAE Systems <span>Electrical Engineer - Santa Clara, CA - 2008-2009</span></h2>
+                <ul>
+                    <li>Designed prototype for gun controller on combat vehicle to increase battery efficiency</li>
+                    <li>Tested new designs both in the lab and on the field to ensure quality assurance</li>
+                    <li>Completed the preliminary prototype for design reviews and vehicle upgrades</li>
+                    <li>Programmed the gun control box hardware and enabled to integrate seamlessly with vehicle devices</li>
                 </ul> 
             </dd>
             
             <dd class="clear"></dd>
             
-            <dt>Hobbies</dt>
-            <dd>World Domination, Deep Sea Diving, Murder Most Foul</dd>
+            <dt>Contact</dt>
+            <dd>
+                GitHub, LinedIn, Facebook, Twitter, Berkeley
+            </dd>
             
             <dd class="clear"></dd>
             
